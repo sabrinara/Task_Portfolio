@@ -116,6 +116,9 @@ const Testimonials = ({ isDark }) => {
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
           pagination={{
             clickable: true,
+            renderBullet: (index, className) => {
+                return `<span class="${className}" style="background-color: #fd6f00; width: 28px; height: 10px; border-radius: 10%; margin-top:200px"></span>`;
+              },
           }}
           modules={[Pagination, Autoplay]}
           autoplay={{
@@ -124,14 +127,10 @@ const Testimonials = ({ isDark }) => {
           }}
           className="mySwiper overflow-auto relative right-0 lg:right-[100vh] w-full lg:w-[190%]"
         >
-          {testimonialData.map((testimonial, index) => (
+          {testimonialData.map((testimonial) => (
             <SwiperSlide key={testimonial.id}>
               <div
-                className={`rounded-xl py-10 gap-3 px-9 bg-[#F8F8F8] text-black flex ${
-                   activeIndex+1 === index || activeIndex+index+1 === tesLength
-                    ? '' 
-                    : 'opacity-60 blur-sm' 
-                }`}
+                className={`rounded-xl py-10 gap-3 px-9 bg-[#F8F8F8] text-black flex flex-col justify-center items-center`}
               >
                 <div>
                   <Image
@@ -141,7 +140,7 @@ const Testimonials = ({ isDark }) => {
                   />
                 </div>
 
-                <div className="">
+                <div className="flex flex-col justify-center items-center">
                   <p className="text-[#fd6f00] text-3xl">“</p>
                   <p className="ml-3 -mt-4 text-sm">
                     {testimonial.text}{" "}

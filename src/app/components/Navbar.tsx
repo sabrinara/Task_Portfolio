@@ -85,7 +85,7 @@ const Navbar = ({ isDark , setIsDark }) => {
 
       {/* Small Device Menu */}
       <ul
-        className={`md:hidden flex flex-col gap-4 pt-10 p-7 text-sm fixed top-0 bottom-0 w-44 z-50 h-screen bg-orange-50 transition-transform duration-500 ${
+        className={`md:hidden flex flex-col gap-4 pt-10 p-7 text-sm fixed top-0 bottom-0 w-44 z-50 h-screen bg-orange-50 dark:bg-[#222222] transition-transform duration-500 ${
           menuOpen ? "right-0" : "-right-44"
         }`}
       >
