@@ -24,7 +24,7 @@ const AboutMe = () => {
             image: App,
         },
         {
-            id: 1,
+            id: 4,
             tech: "Graphics Design",
             image: Gra,
         },

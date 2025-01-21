@@ -7,6 +7,8 @@ import AboutMe from "./components/AboutMe";
 import Banner from "./components/Banner";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 export default function Home() {
   const [isDark, setIsDark] = useState(true);
@@ -32,8 +34,10 @@ export default function Home() {
       <Navbar isDark={isDark} setIsDark={setIsDark}/>
       <Banner />
       <AboutMe />
+      <Services />
       <Projects />
       <Testimonials isDark={isDark} setIsDark={setIsDark}/>
+      <Contact />
       <Footer />
     </div>
   );
