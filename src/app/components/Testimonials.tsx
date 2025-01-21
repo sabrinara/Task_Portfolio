@@ -105,7 +105,7 @@ const Testimonials = ({ isDark }) => {
           ))}
         </Swiper>
       </div> */}
-      <div>
+      <div className='hidden md:block'>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
 import AboutMe from "./components/AboutMe";
+import Banner from "./components/Banner";
 
 export default function Home() {
   const [isDark, setIsDark] = useState(true);
@@ -27,7 +28,8 @@ export default function Home() {
   return (
     <div>
       <Navbar isDark={isDark} setIsDark={setIsDark}/>
-      <AboutMe isDark={isDark}/>
+      <Banner />
+      <AboutMe />
       <Testimonials isDark={isDark}/>
     </div>
   );

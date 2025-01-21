@@ -19,7 +19,7 @@ const Navbar = ({ isDark , setIsDark }) => {
   };
 
   return (
-    <div className="w-full flex justify-around items-center mt-4 md:mt-[61px]">
+    <div className="w-full flex justify-around items-center mt-4 md:mt-[41px]">
       <a href="#top">
         <div className="flex justify-center items-center">
           <Image
