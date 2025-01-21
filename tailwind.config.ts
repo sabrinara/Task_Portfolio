@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,10 +10,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightHover: '#fcf4ff',
+        darkHover: '#2a004a',
+        darkTheme:'#1E1E1E'
       },
+      fontFamily:{
+        Poppins:["Poppins","sans-serif"]
+      }
     },
   },
+  darkMode: 'selector',
   plugins: [],
 } satisfies Config;

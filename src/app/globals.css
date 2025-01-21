@@ -5,3 +5,18 @@
 *{
   font-family: 'Poppins';
 }
+
+
+/* Style for the default pagination dots */
+.swiper-pagination-bullet {
+  background-color: #fd6f00; /* Set to your desired color */
+  width: 20px; /* Optional: change the size */
+  height: 12px; /* Optional: change the size */
+  margin-top: 0 5px; /* Optional: space between dots */
+  border-radius: 50%; /* Ensure dots are round */
+}
+
+/* Style for the active pagination dot */
+.swiper-pagination-bullet-active {
+  background-color: #ff7f33; /* A different color for the active dot */
+}
