@@ -30,7 +30,7 @@ const AboutMe = () => {
         },
     ]
     return (
-        <div className="mb-16 md:mx-10 md:h-[675px]" id="about">
+        <div className="mb-4 md:mx-10 md:h-[675px]" id="about">
              
             <div className="flex flex-col-reverse md:flex-row justify-around items-center  mx-10 md:gap-16">
                 <div className="w-full md:w-1/2 relative">

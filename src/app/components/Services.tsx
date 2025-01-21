@@ -34,7 +34,7 @@ const Services = () => {
         },
     ]
     return (
-        <div className="mt-10 mb-10 md:mb-16 md:mx-24 md:h-[584px]" id="services">
+        <div className="mt-10 md:mt-0 mb-10 md:mb-16 md:mx-24 md:h-[584px]" id="services">
 
             <Title
                 title="Services"

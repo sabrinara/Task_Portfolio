@@ -16,8 +16,8 @@ const Footer = () => {
                 </h1>
             </div>
 
-            <div className="my-4 md:my-6" >
-                <ul className="grid grid-cols-3 md:grid-cols-5gap-1 md:gap-10 text-center">
+            <div className="my-4 md:my-6 md:mx-80" >
+                <ul className="grid grid-cols-3 md:grid-cols-6 gap-1 md:gap-0 text-center ">
                     <li>
                         <a href="#top">Home</a>
                     </li>

@@ -34,7 +34,7 @@ const Projects = () => {
             <Title title="My Projects" subTitle="Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium" />
 
 
-            <div className="grid grid-cols-5 md:grid-cols-5 gap-2 md:gap-3 text-black text-[10px] md:text-xl text-center">
+            <div className="grid grid-cols-5 md:grid-cols-5 gap-2 md:gap-3 text-black text-[10px] md:text-[16px] text-center md:mx-44 ">
                 <button className="bg-white px-4 py-2 rounded-md border border-gray-300">All</button>
                 <button className="bg-white px-4 py-2 rounded-md border border-gray-300">UI/UX</button>
                 <button className="bg-[#FD6F00] text-white px-4 py-2 rounded-md border border-gray-300">Web Design</button>
