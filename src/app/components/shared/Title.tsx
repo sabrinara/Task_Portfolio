@@ -8,7 +8,7 @@ interface TitleProps {
 const Title: React.FC<TitleProps> = ({ title, subTitle }) => {
   return (
     <div className="flex flex-col justify-center items-center text-center mb-10 lg:mb-28 mx-4 lg:mx-96">
-      <h1 className="font-bold text-2xl md:text-[65px] mb-8">{title}</h1>
+      <h1 className="font-bold text-2xl md:text-[65px] lg:mb-8">{title}</h1>
       <p className="font-extralight text-sm md:text-[21px]">{subTitle}</p>
     </div>
   );
