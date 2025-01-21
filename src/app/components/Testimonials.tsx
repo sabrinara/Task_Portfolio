@@ -45,7 +45,7 @@ const Testimonials = ({ isDark }) => {
 
 
   return (
-    <div className='my-10'>
+    <div className='my-10' id='testimonials'>
         <Title title="Testimonials" subTitle="Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium" />
 <div className="relative max-w-full overflow-hidden">
       {/* <div className="hidden lg:block">
