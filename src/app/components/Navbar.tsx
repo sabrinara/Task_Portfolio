@@ -6,8 +6,11 @@ import Moon from "../../../public/asserts/moon.png";
 import Sun from "../../../public/asserts/sun.png";
 import Menu from "../../../public/asserts/menu.png";
 import Cross from "../../../public/asserts/cross.png";
-
-const Navbar = ({ isDark , setIsDark }) => {
+export interface TTheme {
+  isDark : boolean;
+  setIsDark: React.Dispatch<React.SetStateAction<boolean>>;
+}
+const Navbar: React.FC<TTheme>  = ({ isDark  , setIsDark }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {

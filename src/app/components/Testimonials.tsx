@@ -7,9 +7,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { EffectCoverflow, Autoplay, Pagination } from "swiper/modules";
+import { TTheme } from './Navbar';
 
 
-const Testimonials = ({ isDark }) => {
+const Testimonials: React.FC<TTheme> = ({ isDark }) => {
+  console.log(isDark)
   const testimonialData = [
     {
       id: 1,
@@ -72,7 +74,7 @@ const Testimonials = ({ isDark }) => {
           disableOnInteraction: false,
         }}
         modules={[EffectCoverflow, Pagination, Autoplay]}
-        className="overflow-auto relative right-0 lg:right-[100vh] w-full lg:w-[156rem] rounded-xl"
+        className="overflow-auto relative right-0 lg:right-[100vh] w-full lg:w-[163rem] rounded-xl"
       >
         {testimonialData.map((testimonial) => (
             <SwiperSlide key={testimonial.id} className='mb-10 pl-10 rounded-xl'>
