@@ -4,20 +4,20 @@ import Navlogo from "../../../public/asserts/Subtract.png";
 
 const Footer = () => {
     return (
-        <div className="flex flex-col gap-6 mt-10">
+        <div className="flex flex-col gap-2 md:gap-6 mt-10">
             <div className="flex justify-center items-center ">
                 <Image
                     src={Navlogo}
                     alt="mumair"
-                    className="w-[34px] md:w-[67px] h-[34px] md:h-[67px] cursor-pointer mr-1 md:mr-4"
+                    className="w-[54px] md:w-[67px] h-[54px] md:h-[67px] cursor-pointer mr-2 md:mr-4"
                 />
                 <h1 className="text-xl md:text-3xl">
-                    <span className="font-medium text-2xl md:text-5xl">M</span>umair
+                    <span className="font-medium text-3xl md:text-5xl">M</span>umair
                 </h1>
             </div>
 
             <div className="my-4 md:my-6" >
-                <ul className="flex justify-center items-center gap-10">
+                <ul className="grid grid-cols-3 md:grid-cols-5gap-1 md:gap-10 text-center">
                     <li>
                         <a href="#top">Home</a>
                     </li>

@@ -38,8 +38,8 @@ const AboutMe = () => {
                     <div className="bg-[#FD6F0099] absolute md:ml-auto py-4 lg:py-9 w-[15vh] md:w-[40vh] top-[6vh] md:top-[12vh] lg:top-[13vh] px-0 lg:px-10 right-[19vh] lg:right-1/2  translate-x-1/2 "></div>
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col justify-center items-center mx-10">
-                <div >
-                    <h1 className="font-bold text-[65px] my-4 lg:my-14">About Me</h1>
+                <div className="text-center md:text-start">
+                    <h1 className="font-bold text-5xl md:text-[65px] my-4 lg:my-14 ">About Me</h1>
                     <p className="font-extralight text-sm md:text-[21px] mb-10 leading-8">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
                
                     {

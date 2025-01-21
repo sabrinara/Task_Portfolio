@@ -43,7 +43,7 @@ const Services = () => {
             pharetra"
             ></Title>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-6 mx-10 md:mx-0">
                 {
                     serviceData.map((service) => (
                         <div className="rounded-xl px-8 py-10 text-black bg-white shadow-lg" key={service.id}>

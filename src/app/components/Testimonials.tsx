@@ -108,7 +108,7 @@ const Testimonials: React.FC<TTheme> = ({ isDark }) => {
       </Swiper>
       </div>
 
-      <div className="block lg:hidden">
+      <div className="block lg:hidden mx-8">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
