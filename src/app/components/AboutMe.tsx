@@ -1,9 +1,10 @@
+import Image from "next/image";
 import AB from "../../../public/asserts/about_me.png"
 import UX from "../../../public/asserts/ux_progress.png"
 import Web from "../../../public/asserts/w-progress.png"
 import App from "../../../public/asserts/app_progress.png"
 import Gra from "../../../public/asserts/gd_progress.png"
-import Image from "next/image";
+
 
 const AboutMe = () => {
     const aboutData = [
